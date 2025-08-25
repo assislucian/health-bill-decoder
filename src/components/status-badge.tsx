@@ -1,0 +1,1 @@
+import { Badge } from '@/components/ui/badge'; export default function StatusBadge({status}:{status:string}){const c=status==='processed'?'text-success':status==='error'?'text-danger':'text-ink-700';return <Badge className={c}>{status}</Badge>}

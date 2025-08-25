@@ -1,0 +1,1 @@
+import { NextResponse } from 'next/server'; export async function GET(){return NextResponse.json([{id:'1',file_name:'arztrechnung_1234.pdf',total_eur:312.45,status:'processed',created_at:'2025-08-20'},{id:'2',file_name:'rezept_0715.pdf',total_eur:128.10,status:'processed',created_at:'2025-08-21'}])}

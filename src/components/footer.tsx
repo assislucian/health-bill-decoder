@@ -1,0 +1,1 @@
+export default function Footer(){return (<footer className='border-t border-ink-200 mt-20'><div className='container py-10 text-sm text-ink-700'>© 2025 Health‑Bill Decoder · Demo only</div></footer>)}
