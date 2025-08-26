@@ -6,6 +6,8 @@ export default function Header(){
       <nav className="flex items-center gap-4">
         <Link className="link" href="/upload">Upload</Link>
         <Link className="link" href="/dashboard">Dashboard</Link>
+        <Link className="link" href="/claims">Claims</Link>
+        <Link className="link" href="/settings">Settings</Link>
         <Link href="/account"><Button variant="outline">Account</Button></Link>
       </nav>
     </div></header>);
